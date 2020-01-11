@@ -10,7 +10,7 @@ usage() {
 
 trap ctrl_c INT
 
-function ctrl_c() {
+ctrl_c() {
         tput cud1
         echo -e "\nExited\n"
         exit 0
